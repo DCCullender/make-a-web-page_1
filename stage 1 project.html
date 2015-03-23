@@ -1,0 +1,104 @@
+<!doctype HTML>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="style_stage_1.css">
+  <title>Intro to Programming Notes</title>
+  </head>
+  <body>
+    <h1>Intro to Programming</h1> 
+    <div class="topics">
+      <h2>The Basics of the Web and HTML</h2>
+      <div class="lesson">
+        <p>
+          The World Wide Web started in the early 1990s and now consists of over <em>30 billion pages!</em><br>
+          The web is a collection of HTML documents.  Hyperlinks connect all pages like a web. 
+        </p>
+        <p>
+          HTML <em>(hypertext markup language)</em> is the heart of the web.  It is made up of: 
+          <ul>
+          <li>text content (what we see)</li>
+          <li>markup (what it looks like or how it is arranged)</li>
+          <li>references to other documents (images, <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">videos</a>, etc.)</li>
+          <li>links to other pages (such as this <a href=www.cnn.com>CNN</a>)</li>
+          </ul>
+      </div>
+      <div class="lesson">
+        <p>
+          Tags are used to instruct a computer what to do.<br>  Most tags consist of an opening and closing tag, but some do not.  These exceptions are called Void Tags. One example of a Void tag is the Image tag.
+        </p>
+        <p>
+          Another interesting point we learned about the use of images is that it is required (<em>as well as courteous</em>) to provide a text description of the image in the event of a broken image or to aid the visually impaired.   
+        </p>
+      </div>
+      <div class="lesson">
+       <p>
+          While we learned a lot of tidbits regarding href attributes vs.source attributes; inline vs. block elements; and the main components of an HTML document (the Doctype, Head & Body), it is reassuring to know that not <em>all</em> of these details must be committed to memory. Many basic HTML commands are easily found online.
+        </p>
+      </div>
+    </div>
+    <div class="topics">
+      <h2>Webpages, Documents, and Structure</h2> 
+      <div class="lesson">
+        <p> 
+          A complete HTML document consists of a DOCTYPE declaration, opening and closing html tags that surround the document, the HEAD section that contains the Title and provides linkage to any CSS or Java Script files, opening and closing body tags that surround the content and of course, the content.
+        </p>
+      </div>
+      <div class="lesson">
+        <p> 
+          HTML and CSS are both languages.  HTML cares for structure and CSS cares for style.
+        </p>
+        <p>
+          HTML has specific rules and syntax.  For example, code for block level elements should be on its own line, separate from the content.  Additionally, the use of indentation helps to differentiate between code and content and illustrates the parent/child relationship.
+        </p>
+        <p>
+          DOM (document object model) is a tree like structure that diagrams the HTML commands.  Viewing the developer tools in Google Chrome helps to illustrate DOM.
+        </p>
+      </div>
+      <div class="lesson">
+        <p>
+          Style-wise, a web page is made up of multiple boxes.   All content (text, images, headers, etc.) are their own box contained in an overall box that encompasses the entire page.<br>
+          The use of class attributes makes organizing and customizing your page more efficient.  The class name should be descriptive.
+        </p>
+      </div>
+      <div class="lesson">
+        <p>
+          There are many options for writing HTML.  We reviewed the benefits of using Scratchpad, Codepen & Sublime.  A nice summary can be found <a href=http://codepen.io/AndyAtUdacity/full/azYrBM/>here</a>.
+        </p>
+      </div>
+    </div>
+    <div class="topics">
+      <h2>Adding style with CSS</h2> 
+      <div class="lesson">
+        <p> 
+          With CSS, the most specific rules are applied down in a "cascading" manner.  CSS consists of a selector (the element) and a declaration (the style being applied).
+        </p>
+        <p>
+          Using CSS allows the developer to apply style without using repetitive HTML commands.  This allows for increased efficiency in implementing style changes and reduces the opportunity for error.  CSS is instantly viewable and allows for responsive design. 
+        </p>
+      </div>
+      <div class="lesson">
+        <p>
+          One of the key features of CSS is the Inheritance theory, wherein properties are applied to descendants.   Inheritance relies on the document tree.  The descendants inherit text-related properties, NOT box-related.<br>  
+          Some benefits of Inheritance: faster loading speeds and savings on bandwidth and development costs.
+        </p>  
+      </div>
+      <div class="lesson">
+        <p>
+          To improve the appearance of the Box layout, the developer adjusts the settings of the margins, borders, padding and context.  The overall size of the element = sum of border, padding and content widths.
+        </p>
+        <p>
+          Boxes can be a set # of pixels or can be set as a % of the of the screen size using FlexBox (very powerful tool in CSS)
+        </p>
+      </div>
+      <div class="lesson">
+        <p>
+          To achieve the desired design style, you must <b>Code, Test, Refine</b>.  You can test changes using developer tools before adjusting code.
+        </p>
+        <p> 
+          There are <a href="http://validator.w3.org/#validate_by_input">HTML</a> and <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS</a> validation tools available to verify that code meets standards.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
